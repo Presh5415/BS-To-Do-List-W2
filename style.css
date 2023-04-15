@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(100deg, #6f86d6, #48c6ef, #040625);
+    font-family: roboto, sans-serif;
+}
+
+.divideScreen{
+    padding: 40px;
+}
+header{
+    padding: 20px;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%) !important;
+    color: white !important;
+}
+
+.left{
+    text-align: center;
+    justify-content: start;
+    margin: 0;
+}
+
+.card-block{
+    padding: 0.3rem;
+    margin-bottom: 1rem;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    text-align: start;
+    padding-left: 30px;
+    padding-top: 15px;
+    height: 5rem;
+    overflow: hidden;
+
+}
+
+  .icon{
+   display:flex;
+   justify-content: flex-end;
+   padding-right: 25px;
+   transition: all 0.5s ease;
+   overflow: hidden;
+    align-items: inherit;
+    font-size:1.2rem ;
+    font-weight:900;
+    padding-bottom: 15px;
+}
+
+
+
+
+.footer{
+    padding: 20px;
+    margin-top: 1rem;
+   
+
+}
+
+.footer a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.add{
+    background-color: #0093E9;
+    /* background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
+
+}
